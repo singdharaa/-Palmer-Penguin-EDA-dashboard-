@@ -111,7 +111,6 @@ df_raw = get_raw_data()
 df_clean = get_cleaned_data(df_raw)
 
 # Sidebar layout
-st.sidebar.image("https://img.icons8.com/color/96/penguin.png", width=80)
 st.sidebar.markdown("### Palmer Penguins Analytics")
 st.sidebar.markdown("Configure filters below to interact with the visualizations.")
 
